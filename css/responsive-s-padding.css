@@ -1,0 +1,59 @@
+/*  -------------------------------------------------------------------------------
+ *  Media Queries
+ *  -------------------------------------------------------------------------------
+ *
+ *  This part contains the all changes that needed for elements for the Bootsrap
+ *  widths like iPhone image in About me section
+ *
+ *  It's divided to the following sections:
+ *
+ *     |
+       |-->   - Width between 1600px to 1367px
+       |-->   - Width between 1366px to 1250px
+       |-->   - Width between 1249px to 70em
+       |-->   - Width between 1119px to 992px
+       |-->   - Width between 991px to 891px
+       |-->   - Width between 890px to 800px
+       |-->   - Width between 799px to 768px
+       |-->   - Width between 767px to 668px
+       |-->   - Width between 667px to 568px
+       |-->   - Width between 567px to 468px
+       |-->   - Width between 467px to 368px
+       |-->   - Width between 367px to end
+*/
+
+/*-----------------------------------------------------------------------------------*/
+/*  Start Padding CSS Style Responsive
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 1119px) and (min-width: 992px) {
+}
+
+@media (max-width: 991px) and (min-width: 891px) {
+}
+
+@media (max-width: 890px) and (min-width: 800px) {
+}
+
+@media (max-width: 799px) and (min-width: 768px) {
+
+    .section-padding-products {
+       padding: 50px 0 0 0;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 668px) {
+}
+
+@media (max-width: 667px) and (min-width: 568px) {
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  End Padding CSS Style Responsive
+/*-----------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------------------------*/
+/*      * End
+/*-----------------------------------------------------------------------------------*/

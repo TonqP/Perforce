@@ -1,0 +1,406 @@
+/*  -------------------------------------------------------------------------------
+ *  Media Queries
+ *  -------------------------------------------------------------------------------
+ *
+ *  This part contains the all changes that needed for elements for the Bootsrap
+ *  widths like iPhone image in About me section
+ *
+ *  It's divided to the following sections:
+ *
+ *     |
+       |-->   - Width between 1600px to 1367px
+       |-->   - Width between 1366px to 1250px
+       |-->   - Width between 1249px to 70em
+       |-->   - Width between 1119px to 992px
+       |-->   - Width between 991px to 891px
+       |-->   - Width between 890px to 800px
+       |-->   - Width between 799px to 768px
+       |-->   - Width between 767px to 668px
+       |-->   - Width between 667px to 568px
+       |-->   - Width between 567px to 468px
+       |-->   - Width between 467px to 368px
+       |-->   - Width between 367px to end
+*/
+
+/*-----------------------------------------------------------------------------------*/
+/*  Start GLOBAL CSS Style Responsive
+/*-----------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  Start Services
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 1600px) and (min-width: 1367px) {
+
+  .services .my-services-info {
+      text-align: center;
+      padding: 25px;
+      margin: 0;
+  }
+
+  .services .my-services-info .counter {
+      font-size: 1.7rem;
+      font-weight: 700;
+      line-height: 1.25;
+      margin: 25px 0 0 0;
+      padding: 0;
+  }
+
+  .services .my-services-info h3 {
+      font-size: 1.6rem;
+      line-height: 1.25;
+      text-transform: uppercase;
+      margin: 12.5px 0 0 0;
+      padding: 0;
+      color: #000000;
+      opacity: 0.75;
+  }
+
+}
+
+@media (max-width: 1366px) and (min-width: 1250px) {
+
+  .services .my-services-info {
+      text-align: center;
+      padding: 0;
+      margin: 0;
+  }
+
+  .services .my-services-info .counter {
+      font-size: 1.6rem;
+      font-weight: 700;
+      line-height: 1.25;
+      margin: 20px 0 0 0;
+      padding: 0;
+  }
+
+  .services .my-services-info h3 {
+      font-size: 1.5rem;
+      line-height: 1.25;
+      text-transform: uppercase;
+      margin: 10px 0 0 0;
+      padding: 0;
+      color: #000000;
+      opacity: 0.75;
+  }
+
+}
+
+@media (max-width: 1249px) and (min-width: 70em) {
+
+  .services .my-services-info {
+      text-align: center;
+      padding: 0;
+      margin: 0;
+  }
+
+  .services .my-services-info .counter {
+      font-size: 1.5rem;
+      font-weight: 700;
+      line-height: 1.25;
+      margin: 15px 0 0 0;
+      padding: 0;
+  }
+
+  .services .my-services-info h3 {
+      font-size: 1.4rem;
+      line-height: 1.25;
+      text-transform: uppercase;
+      margin: 7.5px 0 0 0;
+      padding: 0;
+      color: #000000;
+      opacity: 0.75;
+  }
+
+}
+
+@media (max-width: 1119px) and (min-width: 992px) {
+
+  .services .my-services-info {
+      text-align: center;
+      padding: 0;
+      margin: 0;
+  }
+
+  .services .my-services-info .counter {
+      font-size: 1.4rem;
+      font-weight: 700;
+      line-height: 1.25;
+      margin: 10px 0 0 0;
+      padding: 0;
+  }
+
+  .services .my-services-info h3 {
+      font-size: 1.3rem;
+      line-height: 1.25;
+      text-transform: uppercase;
+      margin: 5px 0 0 0;
+      padding: 0;
+      color: #000000;
+      opacity: 0.75;
+  }
+
+}
+
+@media (max-width: 991px) and (min-width: 891px) {
+
+  .services .my-services-info {
+      text-align: center;
+      padding: 40px;
+      margin: 30px 0;
+  }
+
+  .services .my-services-info .counter {
+      font-size: 1.7rem;
+      font-weight: 700;
+      line-height: 1.25;
+      margin: 20px 0 0 0;
+      padding: 0;
+  }
+
+  .services .my-services-info h3 {
+      font-size: 1.6rem;
+      line-height: 1.25;
+      text-transform: uppercase;
+      margin: 10px 0 0 0;
+      padding: 0;
+      color: #000000;
+      opacity: 0.75;
+  }
+
+}
+
+@media (max-width: 890px) and (min-width: 800px) {
+
+  .services .my-services-info {
+      text-align: center;
+      padding: 35px;
+      margin: 25px 0;
+  }
+
+  .services .my-services-info .counter {
+      font-size: 1.6rem;
+      font-weight: 700;
+      line-height: 1.25;
+      margin: 15px 0 0 0;
+      padding: 0;
+  }
+
+  .services .my-services-info h3 {
+      font-size: 1.5rem;
+      line-height: 1.25;
+      text-transform: uppercase;
+      margin: 7.5px 0 0 0;
+      padding: 0;
+      color: #000000;
+      opacity: 0.75;
+  }
+
+}
+
+@media (max-width: 799px) and (min-width: 768px) {
+
+  .services .my-services-info {
+      text-align: center;
+      padding: 30px;
+      margin: 20px 0;
+  }
+
+  .services .my-services-info .counter {
+      font-size: 1.5rem;
+      font-weight: 700;
+      line-height: 1.25;
+      margin: 10px 0 0 0;
+      padding: 0;
+  }
+
+  .services .my-services-info h3 {
+      font-size: 1.4rem;
+      line-height: 1.25;
+      text-transform: uppercase;
+      margin: 5px 0 0 0;
+      padding: 0;
+      color: #000000;
+      opacity: 0.75;
+  }
+
+}
+
+@media (max-width: 767px) and (min-width: 668px) {
+
+  .services .my-services-info {
+      text-align: center;
+      padding: 50px;
+      margin: 0;
+  }
+
+  .services .my-services-info .counter {
+      font-size: 1.5rem;
+      font-weight: 700;
+      line-height: 1.25;
+      margin: 25px 0 0 0;
+      padding: 0;
+  }
+
+  .services .my-services-info h3 {
+      font-size: 1.4rem;
+      line-height: 1.25;
+      text-transform: uppercase;
+      margin: 17.5px 0 0 0;
+      padding: 0;
+      color: #000000;
+      opacity: 0.75;
+  }
+
+}
+
+@media (max-width: 667px) and (min-width: 568px) {
+
+  .services .my-services-info {
+      text-align: center;
+      padding: 30px;
+      margin: 0 0 80px 0;
+  }
+
+  .services .my-services-info .counter {
+      font-size: 1.4rem;
+      font-weight: 700;
+      line-height: 1.25;
+      margin: 20px 0 0 0;
+      padding: 0;
+  }
+
+  .services .my-services-info h3 {
+      font-size: 1.3rem;
+      line-height: 1.25;
+      text-transform: uppercase;
+      margin: 15px 0 0 0;
+      padding: 0;
+      color: #000000;
+      opacity: 0.75;
+  }
+
+}
+
+@media (max-width: 567px) and (min-width: 468px) {
+
+  .services .my-services-info {
+      text-align: center;
+      padding: 20px;
+      margin: 0 0 70px 0;
+  }
+
+  .services .my-services-info .counter {
+      font-size: 1.3rem;
+      font-weight: 700;
+      line-height: 1.25;
+      margin: 10px 0 0 0;
+      padding: 0;
+  }
+
+  .services .my-services-info h3 {
+      font-size: 1.2rem;
+      line-height: 1.25;
+      text-transform: uppercase;
+      margin: 12.5px 0 0 0;
+      padding: 0;
+      color: #000000;
+      opacity: 0.75;
+  }
+
+}
+
+@media (max-width: 467px) and (min-width: 368px) {
+
+  .services .my-services-info {
+      text-align: center;
+      padding: 15px;
+      margin: 0 0 60px 0;
+  }
+
+  .services .my-services-info .counter {
+      font-size: 1.2rem;
+      font-weight: 700;
+      line-height: 1.25;
+      margin: 7.5px 0 0 0;
+      padding: 0;
+  }
+
+  .services .my-services-info h3 {
+      font-size: 1.1rem;
+      line-height: 1.25;
+      text-transform: uppercase;
+      margin: 10px 0 0 0;
+      padding: 0;
+      color: #000000;
+      opacity: 0.75;
+  }
+
+}
+
+@media (max-width: 367px) and (min-width: 330px) {
+
+    .services .my-services-info {
+        text-align: center;
+        padding: 10px;
+        margin: 0 0 50px 0;
+    }
+
+    .services .my-services-info .counter {
+        font-size: 1.1rem;
+        font-weight: 700;
+        line-height: 1.25;
+        margin: 5px 0 0 0;
+        padding: 0;
+    }
+
+    .services .my-services-info h3 {
+        font-size: 1rem;
+        line-height: 1.25;
+        text-transform: uppercase;
+        margin: 7.5px 0 0 0;
+        padding: 0;
+        color: #000000;
+        opacity: 0.75;
+    }
+
+}
+
+@media (max-width: 329px) {
+
+    .services .my-services-info {
+        text-align: center;
+        padding: 5px;
+        margin: 0 0 40px 0;
+    }
+
+    .services .my-services-info .counter {
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 1.25;
+        margin: 0;
+        padding: 0;
+    }
+
+    .services .my-services-info h3 {
+        font-size: 0.9rem;
+        line-height: 1.25;
+        text-transform: uppercase;
+        margin: 5px 0 0 0;
+        padding: 0;
+        color: #000000;
+        opacity: 0.75;
+    }
+
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  End Services
+/*-----------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------------------------*/
+/*      * End
+/*-----------------------------------------------------------------------------------*/

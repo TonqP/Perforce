@@ -1,0 +1,187 @@
+/*  -------------------------------------------------------------------------------
+ *  Media Queries
+ *  -------------------------------------------------------------------------------
+ *
+ *  This part contains the all changes that needed for elements for the Bootsrap
+ *  widths like iPhone image in About me section
+ *
+ *  It's divided to the following sections:
+ *
+ *     |
+       |-->   - Width between 1366px to 70em
+       |-->   - Width between 1119px to 992px
+       |-->   - Width between 991px to 891px
+       |-->   - Width between 890px to 800px
+       |-->   - Width between 799px to 768px
+       |-->   - Width between 767px to 500px
+       |-->   - Width between 499px to min
+*/
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  Start Contact
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 1366px) and (min-width: 70em) {
+
+    .contact {
+        padding-bottom: 35px;
+    }
+
+    .box-location {
+        padding-right: 100px;
+        padding-left: 100px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .box-contact {
+        padding-right: 150px;
+        padding-left: 150px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+}
+
+@media (max-width: 1119px) and (min-width: 992px) {
+
+    .contact {
+        padding-bottom: 30px;
+    }
+
+    .box-location {
+        padding-right: 75px;
+        padding-left: 75px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .box-contact {
+        padding-right: 125px;
+        padding-left: 125px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+}
+
+@media (max-width: 991px) and (min-width: 891px) {
+
+    .contact {
+        padding-bottom: 25px;
+    }
+
+    .box-location {
+        padding-right: 50px;
+        padding-left: 50px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .box-contact {
+        padding-right: 100px;
+        padding-left: 100px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+}
+
+@media (max-width: 890px) and (min-width: 800px) {
+
+    .contact {
+        padding-bottom: 20px;
+    }
+
+    .box-location {
+        padding-right: 25px;
+        padding-left: 25px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .box-contact {
+        padding-right: 75px;
+        padding-left: 75px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+}
+
+@media (max-width: 799px) and (min-width: 768px) {
+
+    .contact {
+        padding-bottom: 15px;
+    }
+
+    .box-location {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .box-contact {
+        padding-right: 50px;
+        padding-left: 50px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+}
+
+@media (max-width: 767px) and (min-width: 500px) {
+
+    .contact {
+        padding-bottom: 10px;
+    }
+
+    .box-location {
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .box-contact {
+        padding-right: 25px;
+        padding-left: 25px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+}
+
+@media (max-width: 499px) {
+
+    .contact {
+        padding-bottom: 5px;
+    }
+
+    .box-location {
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .box-contact {
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  End Contact
+/*-----------------------------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*      * End
+/*-----------------------------------------------------------------------------------*/

@@ -1,0 +1,1332 @@
+/*  -------------------------------------------------------------------------------
+ *  Media Queries
+ *  -------------------------------------------------------------------------------
+ *
+ *  This part contains the all changes that needed for elements for the Bootsrap
+ *  widths like iPhone image in About me section
+ *
+ *  It's divided to the following sections:
+ *
+ *     |
+       |-->   - Width between 1600px to 1367px
+       |-->   - Width between 1366px to 1250px
+       |-->   - Width between 1249px to 70em
+       |-->   - Width between 1119px to 992px
+       |-->   - Width between 991px to 891px
+       |-->   - Width between 890px to 800px
+       |-->   - Width between 799px to 768px
+       |-->   - Width between 767px to 668px
+       |-->   - Width between 667px to 568px
+       |-->   - Width between 567px to 468px
+       |-->   - Width between 467px to 368px
+       |-->   - Width between 367px to end
+*/
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  Start Choose-Me
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 1600px) and (min-width: 1367px) {
+
+  .choose-me .box-contents-choose-me {
+      position: relative;
+  }
+
+  .choose-me .box-contents-choose-me .contents-choose-me {
+      position: absolute;
+      width: 70%;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+
+  .choose-me .img-choose-me {
+      position: relative;
+  }
+
+  .choose-me .img-choose-me .img-choose-me-1 {
+      padding: 0 50px;
+      margin-top: 37.5px;
+  }
+
+  .choose-me .box-mockup-choose-me .img-choose-me img {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      background-repeat: no-repeat;
+  }
+
+  .choose-me .contents-choose-me .contents-titles-section,
+   .choose-me .contents-choose-me .contents-titles-section-2 {
+      padding: 0;
+      margin: 0;
+  }
+
+  .accordion,
+    .accordion dt,
+     .accordion dd {
+       margin: 0;
+       padding: 0;
+     }
+
+     .accordion dt {
+       background: transparent;
+       border: 0.5px solid #A8A8A8;
+       font-size: 2.1rem;
+       font-weight: 1;
+       color: #404040;
+       margin-top: 15px;
+       padding: 12px 1px;
+       cursor: pointer;
+     }
+
+     .accordion dt:before {
+       position: relative;
+       top: 0.5px;
+       left: 0;
+       font-family: FontAwesome;
+       padding: 15px 22px;
+       background: #ffffff;
+     }
+
+     .accordion dt:before {
+       content: "\f105";
+     }
+
+     .accordion dt.open {
+     }
+
+     .accordion dt.open:before {
+       position: relative;
+       top: 0.5px;
+       left: 0;
+       font-family: FontAwesome;
+       padding: 15px 19px;
+       background: #d01a48;
+     }
+
+     .accordion dt.open:before {
+       content: "\f107";
+       color: #ffffff;
+     }
+
+     .accordion dd {
+       border: 0.5px solid #939393;
+       border-top: none;
+       padding: 9px;
+     }
+
+     .accordion dd p {
+       margin: 0;
+       font-size: 1.45rem;
+       text-align: left;
+     }
+
+}
+
+@media (max-width: 1366px) and (min-width: 1250px) {
+
+  .choose-me .box-contents-choose-me {
+      position: relative;
+  }
+
+  .choose-me .box-contents-choose-me .contents-choose-me {
+      position: absolute;
+      width: 70%;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+
+  .choose-me .img-choose-me {
+      position: relative;
+  }
+
+  .choose-me .img-choose-me .img-choose-me-1 {
+      padding: 0 50px;
+      margin-top: 37.5px;
+  }
+
+  .choose-me .box-mockup-choose-me .img-choose-me img {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      background-repeat: no-repeat;
+  }
+
+  .choose-me .contents-choose-me .contents-titles-section,
+   .choose-me .contents-choose-me .contents-titles-section-2 {
+      padding: 0;
+      margin: 0;
+  }
+
+  .accordion,
+    .accordion dt,
+     .accordion dd {
+       margin: 0;
+       padding: 0;
+     }
+
+     .accordion dt {
+       background: transparent;
+       border: 0.5px solid #A8A8A8;
+       font-size: 1.95rem;
+       font-weight: 1;
+       color: #404040;
+       margin-top: 14px;
+       padding: 11px 1px;
+       cursor: pointer;
+     }
+
+     .accordion dt:before {
+       position: relative;
+       top: 0.5px;
+       left: 0;
+       font-family: FontAwesome;
+       padding: 13px 20px;
+       background: #ffffff;
+     }
+
+     .accordion dt:before {
+       content: "\f105";
+     }
+
+     .accordion dt.open {
+     }
+
+     .accordion dt.open:before {
+       position: relative;
+       top: 0.5px;
+       left: 0;
+       font-family: FontAwesome;
+       padding: 13px 17px;
+       background: #d01a48;
+     }
+
+     .accordion dt.open:before {
+       content: "\f107";
+       color: #ffffff;
+     }
+
+     .accordion dd {
+       border: 0.5px solid #939393;
+       border-top: none;
+       padding: 8px;
+     }
+
+     .accordion dd p {
+       margin: 0;
+       font-size: 1.4rem;
+       text-align: left;
+     }
+
+}
+
+@media (max-width: 1249px) and (min-width: 70em) {
+
+  .choose-me .box-contents-choose-me {
+      position: relative;
+  }
+
+  .choose-me .box-contents-choose-me .contents-choose-me {
+      position: absolute;
+      width: 70%;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+
+  .choose-me .img-choose-me {
+      position: relative;
+  }
+
+  .choose-me .img-choose-me .img-choose-me-1 {
+      padding: 0 50px;
+      margin-top: 37.5px;
+  }
+
+  .choose-me .box-mockup-choose-me .img-choose-me img {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      background-repeat: no-repeat;
+  }
+
+  .choose-me .contents-choose-me .contents-titles-section,
+   .choose-me .contents-choose-me .contents-titles-section-2 {
+      padding: 0;
+      margin: 0;
+  }
+
+  .accordion,
+    .accordion dt,
+     .accordion dd {
+       margin: 0;
+       padding: 0;
+     }
+
+     .accordion dt {
+       background: transparent;
+       border: 0.5px solid #A8A8A8;
+       font-size: 1.8rem;
+       font-weight: 1;
+       color: #404040;
+       margin-top: 13px;
+       padding: 9px 1px;
+       cursor: pointer;
+     }
+
+     .accordion dt:before {
+       position: relative;
+       top: 0;
+       left: 0.5px;
+       font-family: FontAwesome;
+       padding: 11px 17px;
+       background: #ffffff;
+     }
+
+     .accordion dt:before {
+       content: "\f105";
+     }
+
+     .accordion dt.open {
+     }
+
+     .accordion dt.open:before {
+       position: relative;
+       top: 0;
+       left: 0.5px;
+       font-family: FontAwesome;
+       padding: 11px 14px;
+       background: #d01a48;
+     }
+
+     .accordion dt.open:before {
+       content: "\f107";
+       color: #ffffff;
+     }
+
+     .accordion dd {
+       border: 0.5px solid #939393;
+       border-top: none;
+       padding: 7px;
+     }
+
+     .accordion dd p {
+       margin: 0;
+       font-size: 1.35rem;
+       text-align: left;
+     }
+
+}
+
+@media (max-width: 1119px) and (min-width: 992px) {
+
+  .choose-me .box-contents-choose-me {
+      position: relative;
+  }
+
+  .choose-me .box-contents-choose-me .contents-choose-me {
+      position: absolute;
+      width: 70%;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+
+  .choose-me .img-choose-me {
+      position: relative;
+  }
+
+  .choose-me .img-choose-me .img-choose-me-1 {
+      padding: 0 50px;
+      margin-top: 37.5px;
+  }
+
+  .choose-me .box-mockup-choose-me .img-choose-me img {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      background-repeat: no-repeat;
+  }
+
+  .choose-me .contents-choose-me .contents-titles-section,
+   .choose-me .contents-choose-me .contents-titles-section-2 {
+      padding: 0;
+      margin: 0;
+  }
+
+  .accordion,
+    .accordion dt,
+     .accordion dd {
+       margin: 0;
+       padding: 0;
+     }
+
+     .accordion dt {
+       background: transparent;
+       border: 0.5px solid #A8A8A8;
+       font-size: 1.65rem;
+       font-weight: 1;
+       color: #404040;
+       margin-top: 12px;
+       padding: 7px 11px;
+       cursor: pointer;
+     }
+
+     .accordion dt:before {
+       position: relative;
+       top: 0;
+       left: -10px;
+       font-family: FontAwesome;
+       padding: 9px 14px;
+       background: #ffffff;
+     }
+
+     .accordion dt:before {
+       content: "\f105";
+     }
+
+     .accordion dt.open {
+     }
+
+     .accordion dt.open:before {
+       position: relative;
+       top: 0;
+       left: -10px;
+       font-family: FontAwesome;
+       padding: 9px 12px;
+       background: #d01a48;
+     }
+
+     .accordion dt.open:before {
+       content: "\f107";
+       color: #ffffff;
+     }
+
+     .accordion dd {
+       border: 0.5px solid #939393;
+       border-top: none;
+       padding: 6px;
+     }
+
+     .accordion dd p {
+       margin: 0;
+       font-size: 1.3rem;
+       text-align: left;
+     }
+
+}
+
+@media (max-width: 991px) and (min-width: 891px) {
+
+  .choose-me .box-contents-choose-me {
+      position: relative;
+  }
+
+  .choose-me .box-contents-choose-me .contents-choose-me {
+      position: absolute;
+      width: 70%;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+
+  .choose-me .img-choose-me {
+      position: relative;
+  }
+
+  .choose-me .img-choose-me .img-choose-me-1 {
+      padding: 0 50px;
+      margin-top: 37.5px;
+  }
+
+  .choose-me .box-mockup-choose-me .img-choose-me img {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      background-repeat: no-repeat;
+  }
+
+  .choose-me .contents-choose-me .contents-titles-section,
+   .choose-me .contents-choose-me .contents-titles-section-2 {
+      padding: 0;
+      margin: 0;
+  }
+
+  .accordion,
+    .accordion dt,
+     .accordion dd {
+       margin: 0;
+       padding: 0;
+     }
+
+     .accordion dt {
+       background: transparent;
+       border: 0.5px solid #A8A8A8;
+       font-size: 1.5rem;
+       font-weight: 1;
+       color: #404040;
+       margin-top: 11px;
+       padding: 5px 9px;
+       cursor: pointer;
+     }
+
+     .accordion dt:before {
+       position: relative;
+       top: -0.5px;
+       left: -8px;
+       font-family: FontAwesome;
+       padding: 7px 12px;
+       background: #ffffff;
+     }
+
+     .accordion dt:before {
+       content: "\f105";
+     }
+
+     .accordion dt.open {
+     }
+
+     .accordion dt.open:before {
+       position: relative;
+       top: -0.5px;
+       left: -8.5px;
+       font-family: FontAwesome;
+       padding: 7px 10px;
+       background: #d01a48;
+     }
+
+     .accordion dt.open:before {
+       position: relative;
+       content: "\f107";
+       color: #ffffff;
+     }
+
+     .accordion dd {
+       border: 0.5px solid #939393;
+       border-top: none;
+       padding: 5px;
+     }
+
+     .accordion dd p {
+       margin: 0;
+       font-size: 1.25rem;
+       text-align: left;
+     }
+
+}
+
+@media (max-width: 890px) and (min-width: 800px) {
+
+  .choose-me .box-contents-choose-me {
+      position: relative;
+  }
+
+  .choose-me .box-contents-choose-me .contents-choose-me {
+      position: absolute;
+      width: 70%;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+
+  .choose-me .img-choose-me {
+      position: relative;
+  }
+
+  .choose-me .img-choose-me .img-choose-me-1 {
+      padding: 0 50px;
+      margin-top: 37.5px;
+  }
+
+  .choose-me .box-mockup-choose-me .img-choose-me img {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      background-repeat: no-repeat;
+  }
+
+  .choose-me .contents-choose-me .contents-titles-section,
+   .choose-me .contents-choose-me .contents-titles-section-2 {
+      padding: 0;
+      margin: 0;
+  }
+
+  .accordion,
+    .accordion dt,
+     .accordion dd {
+       margin: 0;
+       padding: 0;
+     }
+
+     .accordion dt {
+       background: transparent;
+       border: 0.5px solid #A8A8A8;
+       font-size: 1.35rem;
+       font-weight: 1;
+       color: #404040;
+       margin-top: 10px;
+       padding: 5px 9px;
+       cursor: pointer;
+     }
+
+     .accordion dt:before {
+       position: relative;
+       top: 0.5px;
+       left: -8px;
+       font-family: FontAwesome;
+       padding: 7px 12px;
+       background: #ffffff;
+     }
+
+     .accordion dt:before {
+       content: "\f105";
+     }
+
+     .accordion dt.open {
+     }
+
+     .accordion dt.open:before {
+       position: relative;
+       top: 0.5px;
+       left: -8px;
+       font-family: FontAwesome;
+       padding: 7px 10px;
+       background: #d01a48;
+     }
+
+     .accordion dt.open:before {
+       position: relative;
+       content: "\f107";
+       color: #ffffff;
+     }
+
+     .accordion dd {
+       border: 0.5px solid #939393;
+       border-top: none;
+       padding: 4px;
+     }
+
+     .accordion dd p {
+       margin: 0;
+       font-size: 1.2rem;
+       text-align: left;
+     }
+
+}
+
+@media (max-width: 799px) and (min-width: 768px) {
+
+  .choose-me .box-contents-choose-me {
+      position: relative;
+  }
+
+  .choose-me .box-contents-choose-me .contents-choose-me {
+      position: absolute;
+      width: 70%;
+      top: 50%;
+      transform: translateY(-50%);
+  }
+
+  .choose-me .img-choose-me {
+      position: relative;
+  }
+
+  .choose-me .img-choose-me .img-choose-me-1 {
+      padding: 0 50px;
+      margin-top: 37.5px;
+  }
+
+  .choose-me .box-mockup-choose-me .img-choose-me img {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      background-repeat: no-repeat;
+  }
+
+  .choose-me .contents-choose-me .contents-titles-section,
+   .choose-me .contents-choose-me .contents-titles-section-2 {
+      padding: 0;
+      margin: 0;
+  }
+
+  .accordion,
+    .accordion dt,
+     .accordion dd {
+       margin: 0;
+       padding: 0;
+     }
+
+     .accordion dt {
+       background: transparent;
+       border: 0.5px solid #A8A8A8;
+       font-size: 1.2rem;
+       font-weight: 1;
+       color: #404040;
+       margin-top: 9px;
+       padding: 5px 9px;
+       cursor: pointer;
+     }
+
+     .accordion dt:before {
+       position: relative;
+       top: 0;
+       left: -8.5px;
+       font-family: FontAwesome;
+       padding: 6px 10px;
+       background: #ffffff;
+     }
+
+     .accordion dt:before {
+       content: "\f105";
+     }
+
+     .accordion dt.open {
+     }
+
+     .accordion dt.open:before {
+       position: relative;
+       top: 0;
+       left: -8.5px;
+       font-family: FontAwesome;
+       padding: 7px 9px;
+       background: #d01a48;
+     }
+
+     .accordion dt.open:before {
+       position: relative;
+       content: "\f107";
+       color: #ffffff;
+     }
+
+     .accordion dd {
+       border: 0.5px solid #939393;
+       border-top: none;
+       padding: 3px;
+     }
+
+     .accordion dd p {
+       margin: 0;
+       font-size: 1.15rem;
+       text-align: left;
+     }
+
+}
+
+@media (max-width: 767px) and (min-width: 668px) {
+
+  .choose-me .box-contents-choose-me {
+      position: relative;
+  }
+
+  .choose-me .box-contents-choose-me .contents-choose-me {
+      position: absolute;
+      width: 70%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+
+  .choose-me .img-choose-me {
+      position: relative;
+  }
+
+  .choose-me .img-choose-me .img-choose-me-1 {
+      padding: 0 50px;
+      margin-top: 37.5px;
+  }
+
+  .choose-me .box-mockup-choose-me .img-choose-me img {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      background-repeat: no-repeat;
+  }
+
+  .choose-me .contents-choose-me .contents-titles-section,
+   .choose-me .contents-choose-me .contents-titles-section-2 {
+      padding: 0;
+      margin: 0;
+  }
+
+  .accordion,
+    .accordion dt,
+     .accordion dd {
+       margin: 0;
+       padding: 0;
+     }
+
+     .accordion dt {
+       background: transparent;
+       border: 0.5px solid #A8A8A8;
+       font-size: 1.65rem;
+       font-weight: 1;
+       color: #404040;
+       margin-top: 8px;
+       padding: 7px 11px;
+       cursor: pointer;
+     }
+
+     .accordion dt:before {
+       position: relative;
+       top: 1px;
+       left: -10px;
+       font-family: FontAwesome;
+       padding: 9px 14px;
+       background: #ffffff;
+     }
+
+     .accordion dt:before {
+       content: "\f105";
+     }
+
+     .accordion dt.open {
+     }
+
+     .accordion dt.open:before {
+       position: relative;
+       top: 1px;
+       left: -10px;
+       font-family: FontAwesome;
+       padding: 9px 12px;
+       background: #d01a48;
+     }
+
+     .accordion dt.open:before {
+       position: relative;
+       content: "\f107";
+       color: #ffffff;
+     }
+
+     .accordion dd {
+       border: 0.5px solid #939393;
+       border-top: none;
+       padding: 6px;
+     }
+
+     .accordion dd p {
+       margin: 0;
+       font-size: 1.3rem;
+       text-align: left;
+     }
+
+}
+
+@media (max-width: 667px) and (min-width: 568px) {
+
+  .choose-me .box-contents-choose-me {
+      position: relative;
+  }
+
+  .choose-me .box-contents-choose-me .contents-choose-me {
+      position: absolute;
+      width: 70%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+
+  .choose-me .img-choose-me {
+      position: relative;
+  }
+
+  .choose-me .img-choose-me .img-choose-me-1 {
+      padding: 0 50px;
+      margin-top: 37.5px;
+  }
+
+  .choose-me .box-mockup-choose-me .img-choose-me img {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      background-repeat: no-repeat;
+  }
+
+  .choose-me .contents-choose-me .contents-titles-section,
+   .choose-me .contents-choose-me .contents-titles-section-2 {
+      padding: 0;
+      margin: 0;
+  }
+
+  .accordion,
+    .accordion dt,
+     .accordion dd {
+       margin: 0;
+       padding: 0;
+     }
+
+     .accordion dt {
+       background: transparent;
+       border: 0.5px solid #A8A8A8;
+       font-size: 1.5rem;
+       font-weight: 1;
+       color: #404040;
+       margin-top: 11px;
+       padding: 5px 9px;
+       cursor: pointer;
+     }
+
+     .accordion dt:before {
+       position: relative;
+       top: 0;
+       left: -8px;
+       font-family: FontAwesome;
+       padding: 7px 12px;
+       background: #ffffff;
+     }
+
+     .accordion dt:before {
+       content: "\f105";
+     }
+
+     .accordion dt.open {
+     }
+
+     .accordion dt.open:before {
+       position: relative;
+       top: 0;
+       left: -8.5px;
+       font-family: FontAwesome;
+       padding: 7px 10px;
+       background: #d01a48;
+     }
+
+     .accordion dt.open:before {
+       position: relative;
+       content: "\f107";
+       color: #ffffff;
+     }
+
+     .accordion dd {
+       border: 0.5px solid #939393;
+       border-top: none;
+       padding: 5px;
+     }
+
+     .accordion dd p {
+       margin: 0;
+       font-size: 1.25rem;
+       text-align: left;
+     }
+}
+
+@media (max-width: 567px) and (min-width: 468px) {
+
+  .choose-me .box-contents-choose-me {
+      position: relative;
+  }
+
+  .choose-me .box-contents-choose-me .contents-choose-me {
+      position: absolute;
+      width: 70%;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+
+  .choose-me .img-choose-me {
+      position: relative;
+  }
+
+  .choose-me .img-choose-me .img-choose-me-1 {
+      display: none;
+  }
+
+  .choose-me .box-mockup-choose-me .img-choose-me img {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      background-repeat: no-repeat;
+  }
+
+  .choose-me .contents-choose-me .contents-titles-section,
+   .choose-me .contents-choose-me .contents-titles-section-2 {
+      padding: 0;
+      margin: 0;
+  }
+
+  .accordion,
+    .accordion dt,
+     .accordion dd {
+       margin: 0;
+       padding: 0;
+     }
+
+     .accordion dt {
+       background: transparent;
+       border: 0.5px solid #A8A8A8;
+       font-size: 1.35rem;
+       font-weight: 1;
+       color: #404040;
+       margin-top: 10px;
+       padding: 5px 9px;
+       cursor: pointer;
+     }
+
+     .accordion dt:before {
+       position: relative;
+       top: 0.5px;
+       left: -8px;
+       font-family: FontAwesome;
+       padding: 7px 12px;
+       background: #ffffff;
+     }
+
+     .accordion dt:before {
+       content: "\f105";
+     }
+
+     .accordion dt.open {
+     }
+
+     .accordion dt.open:before {
+       position: relative;
+       top: 0.5px;
+       left: -9px;
+       font-family: FontAwesome;
+       padding: 7px 10px;
+       background: #d01a48;
+     }
+
+     .accordion dt.open:before {
+       position: relative;
+       content: "\f107";
+       color: #ffffff;
+     }
+
+     .accordion dd {
+       border: 0.5px solid #939393;
+       border-top: none;
+       padding: 4px;
+     }
+
+     .accordion dd p {
+       margin: 0;
+       font-size: 1.2rem;
+       text-align: left;
+     }
+
+}
+
+@media (max-width: 467px) and (min-width: 368px) {
+
+  .choose-me .section-title {
+     margin-bottom: 60px;
+  }
+
+  .contents-titles-section .title-discription {
+     display: none;
+  }
+
+  .choose-me .box-contents-choose-me {
+      position: relative;
+  }
+
+  .choose-me .box-contents-choose-me .contents-choose-me {
+      position: absolute;
+      width: 70%;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+
+  .choose-me .img-choose-me {
+      position: relative;
+  }
+
+  .choose-me .img-choose-me .img-choose-me-1 {
+      display: none;
+  }
+
+  .choose-me .box-mockup-choose-me .img-choose-me img {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      background-repeat: no-repeat;
+  }
+
+  .choose-me .contents-choose-me .contents-titles-section,
+   .choose-me .contents-choose-me .contents-titles-section-2 {
+      padding: 0;
+      margin: 0;
+  }
+
+  .accordion,
+    .accordion dt,
+     .accordion dd {
+       margin: 0;
+       padding: 0;
+     }
+
+     .accordion dt {
+       background: transparent;
+       border: 0.5px solid #A8A8A8;
+       font-size: 1.2rem;
+       font-weight: 1;
+       color: #404040;
+       margin-top: 5px;
+       padding: 5px 9px;
+       cursor: pointer;
+     }
+
+     .accordion dt:before {
+       position: relative;
+       top: 0.5px;
+       left: -8.5px;
+       font-family: FontAwesome;
+       padding: 6px 10px;
+       background: #ffffff;
+     }
+
+     .accordion dt:before {
+       content: "\f105";
+     }
+
+     .accordion dt.open {
+     }
+
+     .accordion dt.open:before {
+       position: relative;
+       top: 0.5px;
+       left: -8.5px;
+       font-family: FontAwesome;
+       padding: 7px 9px;
+       background: #d01a48;
+     }
+
+     .accordion dt.open:before {
+       position: relative;
+       content: "\f107";
+       color: #ffffff;
+     }
+
+     .accordion dd {
+       border: 0.5px solid #939393;
+       border-top: none;
+       padding: 1.5px;
+     }
+
+     .accordion dd p {
+       margin: 1px 2px;
+       font-size: 1.1rem;
+       text-align: left;
+     }
+
+}
+
+@media (max-width: 367px) and (min-width: 330px) {
+
+  .choose-me .section-title {
+     margin-bottom: 70px;
+  }
+
+  .contents-titles-section .title-discription {
+     display: none;
+  }
+
+  .choose-me .box-contents-choose-me {
+      position: relative;
+  }
+
+  .choose-me .box-contents-choose-me .contents-choose-me {
+      position: absolute;
+      width: 70%;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+
+  .choose-me .img-choose-me {
+      position: relative;
+  }
+
+  .choose-me .img-choose-me .img-choose-me-1 {
+      display: none;
+  }
+
+  .choose-me .box-mockup-choose-me .img-choose-me img {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      background-repeat: no-repeat;
+  }
+
+  .choose-me .contents-choose-me .contents-titles-section,
+   .choose-me .contents-choose-me .contents-titles-section-2 {
+      padding: 0;
+      margin: 0;
+  }
+
+  .accordion,
+    .accordion dt,
+     .accordion dd {
+       margin: 0;
+       padding: 0;
+     }
+
+     .accordion dt {
+       background: transparent;
+       border: 0.5px solid #A8A8A8;
+       font-size: 1.2rem;
+       font-weight: 1;
+       color: #404040;
+       margin-top: 4px;
+       padding: 5px 9px;
+       cursor: pointer;
+     }
+
+     .accordion dt:before {
+       position: relative;
+       top: 0.5px;
+       left: -8.5px;
+       font-family: FontAwesome;
+       padding: 6px 10px;
+       background: #ffffff;
+     }
+
+     .accordion dt:before {
+       content: "\f105";
+     }
+
+     .accordion dt.open {
+     }
+
+     .accordion dt.open:before {
+       position: relative;
+       top: 0.5px;
+       left: -8.5px;
+       font-family: FontAwesome;
+       padding: 7px 9px;
+       background: #d01a48;
+     }
+
+     .accordion dt.open:before {
+       position: relative;
+       content: "\f107";
+       color: #ffffff;
+     }
+
+     .accordion dd {
+       border: 0.5px solid #939393;
+       border-top: none;
+       padding: 1.5px;
+     }
+
+     .accordion dd p {
+       margin: 1px 2px;
+       font-size: 1rem;
+       text-align: left;
+     }
+
+}
+
+@media (max-width: 329px) {
+
+  .choose-me .section-title {
+     margin-bottom: 80px;
+  }
+
+  .contents-titles-section .title-discription {
+     display: none;
+  }
+
+  .choose-me .box-contents-choose-me {
+      position: relative;
+  }
+
+  .choose-me .box-contents-choose-me .contents-choose-me {
+      position: absolute;
+      width: 70%;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+
+  .choose-me .img-choose-me {
+      position: relative;
+  }
+
+  .choose-me .img-choose-me .img-choose-me-1 {
+      display: none;
+  }
+
+  .choose-me .box-mockup-choose-me .img-choose-me img {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      background-repeat: no-repeat;
+  }
+
+  .choose-me .contents-choose-me .contents-titles-section,
+   .choose-me .contents-choose-me .contents-titles-section-2 {
+      padding: 0;
+      margin: 0;
+  }
+
+  .accordion,
+    .accordion dt,
+     .accordion dd {
+       margin: 0;
+       padding: 0;
+     }
+
+     .accordion dt {
+       background: transparent;
+       border: 0.5px solid #A8A8A8;
+       font-size: 1.1rem;
+       font-weight: 1;
+       color: #404040;
+       margin-top: 3px;
+       padding: 5px 9px;
+       cursor: pointer;
+     }
+
+     .accordion dt:before {
+       position: relative;
+       top: 0.5px;
+       left: -8.5px;
+       font-family: FontAwesome;
+       padding: 6px 10px;
+       background: #ffffff;
+     }
+
+     .accordion dt:before {
+       content: "\f105";
+     }
+
+     .accordion dt.open {
+     }
+
+     .accordion dt.open:before {
+       position: relative;
+       top: 0.5px;
+       left: -8.5px;
+       font-family: FontAwesome;
+       padding: 7px 9px;
+       background: #d01a48;
+     }
+
+     .accordion dt.open:before {
+       position: relative;
+       content: "\f107";
+       color: #ffffff;
+     }
+
+     .accordion dd {
+       border: 0.5px solid #939393;
+       border-top: none;
+       padding: 1.5px;
+     }
+
+     .accordion dd p {
+       margin: 1px 2px;
+       font-size: 0.9rem;
+       text-align: left;
+     }
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  End Choose-Me
+/*-----------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------------------------*/
+/*      * End
+/*-----------------------------------------------------------------------------------*/

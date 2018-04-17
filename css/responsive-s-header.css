@@ -1,0 +1,1259 @@
+/*  -------------------------------------------------------------------------------
+ *  Media Queries
+ *  -------------------------------------------------------------------------------
+ *
+ *  This part contains the all changes that needed for elements for the Bootsrap
+ *  widths like iPhone image in About me section
+ *
+ *  It's divided to the following sections:
+ *
+ *     |
+       |-->   - Width between 1600px to 1367px
+       |-->   - Width between 1366px to 1250px
+       |-->   - Width between 1249px to 70em
+       |-->   - Width between 1119px to 992px
+       |-->   - Width between 991px to 891px
+       |-->   - Width between 890px to 800px
+       |-->   - Width between 799px to 768px
+       |-->   - Width between 767px to 668px
+       |-->   - Width between 667px to 568px
+       |-->   - Width between 567px to 468px
+       |-->   - Width between 467px to 300px
+       |-->   - Width between 299px to end
+*/
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  Start Navi
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 1600px) and (min-width: 1367px) {
+
+   .navbar-nav {
+       float: right;
+       list-style: none;
+       padding: 35px 5px;
+       margin: 0;
+    }
+
+    .navbar-nav li {
+        padding: 0 22.5px;
+    }
+
+    .navbar>.container-fluid-header .navbar-brand {
+        position: relative;
+        width: 150px;
+        height: 50px;
+        padding: 45px 5px;
+        margin: 0;
+    }
+
+    .navbar>.container-fluid-header .navbar-brand.brandPerforce {
+        margin-left: 45px;
+    }
+
+    .navbar-default .navbar-nav .navbar-nav-products li a {
+        text-transform: capitalize;
+        font-size: 1rem;
+        background-color: transparent;
+        padding: 3px 3px 3px 15px;
+    }
+
+    .navbar-default .navbar-nav li a {
+        text-transform: capitalize;
+        font-size: 1.85rem;
+        color: #404040;
+    }
+
+    #linkFixed {
+        font-size: 1.85rem;
+        background-color: #ffffff;
+        color: #404040;
+    }
+
+    #linkFixed:hover {
+        font-size: 1.85rem;
+        color: #000000;
+    }
+
+    #whiteFixed {
+        width: 100%;
+        height: 90px;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 6px 13px;
+        border-radius: 0px;
+        background: white;
+        position: fixed;
+        padding: 0 3px 10px 3px;
+    }
+
+    #olFixed {
+        position: relative;
+    }
+
+    .head-info .head-contents h2 {
+        font-size: 5.7rem;
+    }
+
+    .head-info .head-contents h4 {
+        font-size: 2.85rem;
+    }
+
+}
+
+@media (max-width: 1366px) and (min-width: 1250px) {
+
+    .navbar-nav {
+        float: right;
+        list-style: none;
+        padding: 35px 5px;
+        margin: 0;
+    }
+
+    .navbar-nav li {
+        padding: 0 20px;
+    }
+
+    .navbar>.container-fluid-header .navbar-brand {
+        position: relative;
+        width: 135px;
+        height: 45px;
+        padding: 45px 5px;
+        margin: 0;
+    }
+
+    .navbar>.container-fluid-header .navbar-brand.brandPerforce {
+        margin-left: 40px;
+    }
+
+    .navbar-default .navbar-nav .navbar-nav-products li a {
+        text-transform: capitalize;
+        font-size: 1rem;
+        background-color: transparent;
+        padding: 3px 3px 3px 15px;
+    }
+
+    .navbar-default .navbar-nav li a {
+        text-transform: capitalize;
+        font-size: 1.6rem;
+        color: #404040;
+    }
+
+    #linkFixed {
+      font-size: 1.6rem;
+      background-color: #ffffff;
+      color: #404040;
+    }
+
+    #linkFixed:hover {
+      font-size: 1.6rem;
+      color: #000000;
+    }
+
+    #whiteFixed {
+      width: 100%;
+      height: 90px;
+      box-shadow: rgba(0, 0, 0, 0.15) 0px 6px 13px;
+      border-radius: 0px;
+      background: white;
+      position: fixed;
+      padding: 0 3px 10px 3px;
+    }
+
+    #olFixed {
+      position: relative;
+    }
+
+    .head-info .head-contents h2 {
+        font-size: 4.89rem;
+    }
+
+    .head-info .head-contents h4 {
+        font-size: 2.45rem;
+    }
+
+}
+
+@media (max-width: 1249px) and (min-width: 70em) {
+
+    .navbar-nav {
+        float: right;
+        list-style: none;
+        padding: 35px 5px;
+        margin: 0;
+    }
+
+    .navbar-nav li {
+        padding: 0 17.5px;
+    }
+
+    .navbar>.container-fluid-header .navbar-brand {
+        position: relative;
+        width: 121.5px;
+        height: 40.5px;
+        padding: 45px 5px;
+        margin: 0;
+    }
+
+    .navbar>.container-fluid-header .navbar-brand.brandPerforce {
+        margin-left: 35px;
+    }
+
+    .navbar-default .navbar-nav .navbar-nav-products li a {
+        text-transform: capitalize;
+        font-size: 1rem;
+        background-color: transparent;
+        padding: 3px 3px 3px 15px;
+    }
+
+    .navbar-default .navbar-nav li a {
+        text-transform: capitalize;
+        font-size: 1.5rem;
+        color: #404040;
+    }
+
+    .navbar-default .navbar-nav li .stress {
+        width: 100%;
+        height: 3.5px;
+        margin-top: 3.5px;
+        border: 1px solid #d01a48;
+        background-color: #d01a48;
+    }
+
+    #linkFixed {
+      font-size: 1.5rem;
+      background-color: #ffffff;
+      color: #404040;
+    }
+
+    #linkFixed:hover {
+      font-size: 1.5rem;
+      color: #000000;
+    }
+
+    #whiteFixed {
+      width: 100%;
+      height: 90px;
+      box-shadow: rgba(0, 0, 0, 0.15) 0px 6px 13px;
+      border-radius: 0px;
+      background: white;
+      position: fixed;
+      padding: 0 3px 10px 3px;
+    }
+
+    #olFixed {
+     position: relative;
+    }
+
+    .head-info .head-contents h2 {
+        font-size: 4.5rem;
+    }
+
+    .head-info .head-contents h4 {
+        font-size: 2.25rem;
+    }
+
+}
+
+@media (max-width: 1119px) and (min-width: 992px) {
+
+     .navbar-nav {
+        float: right;
+        list-style: none;
+        padding: 35px 5px;
+        margin: 0;
+     }
+
+     .navbar-nav li {
+        padding: 0 15px;
+     }
+
+    .navbar>.container-fluid-header .navbar-brand {
+        position: relative;
+        width: 109px;
+        height: 36.45px;
+        padding: 45px 5px;
+        margin: 0;
+    }
+
+    .navbar>.container-fluid-header .navbar-brand.brandPerforce {
+        margin-left: 30px;
+    }
+
+    .navbar-default .navbar-nav .navbar-nav-products li a {
+        text-transform: capitalize;
+        font-size: 1rem;
+        background-color: transparent;
+        padding: 3px 3px 3px 15px;
+    }
+
+    .navbar-default .navbar-nav li a {
+        text-transform: capitalize;
+        font-size: 1.4rem;
+        color: #404040;
+    }
+
+    #linkFixed {
+      font-size: 1.4rem;
+      background-color: #ffffff;
+      color: #404040;
+    }
+
+    #linkFixed:hover {
+      font-size: 1.4rem;
+      color: #000000;
+    }
+
+    #whiteFixed {
+      width: 100%;
+      height: 90px;
+      box-shadow: rgba(0, 0, 0, 0.15) 0px 6px 13px;
+      border-radius: 0px;
+      background: white;
+      position: fixed;
+      padding: 0 3px 10px 3px;
+    }
+
+    #olFixed {
+      position: relative;
+    }
+
+    .head-info .head-contents h2 {
+        font-size: 4.18rem;
+    }
+
+    .head-info .head-contents h4 {
+        font-size: 2.05rem;
+    }
+
+}
+
+@media (max-width: 991px) and (min-width: 891px) {
+
+     .navbar-nav {
+        float: right;
+        list-style: none;
+        padding: 35px 5px;
+        margin: 0;
+     }
+
+     .navbar-nav li {
+        padding: 0 12.5px;
+     }
+
+    .navbar>.container-fluid-header .navbar-brand {
+        position: relative;
+        width: 98.1px;
+        height: 32.8px;
+        padding: 45px 5px;
+        margin: 0;
+    }
+
+    .navbar>.container-fluid-header .navbar-brand.brandPerforce {
+        margin-left: 25px;
+    }
+
+    .navbar-default .navbar-nav .navbar-nav-products li a {
+        text-transform: capitalize;
+        font-size: 1rem;
+        background-color: transparent;
+        padding: 3px 3px 3px 15px;
+    }
+
+    .navbar-default .navbar-nav li a {
+        text-transform: capitalize;
+        font-size: 1.3rem;
+        color: #404040;
+    }
+
+    #linkFixed {
+      font-size: 1.3rem;
+      background-color: #ffffff;
+      color: #404040;
+    }
+
+    #linkFixed:hover {
+      font-size: 1.3rem;
+      color: #000000;
+    }
+
+    #whiteFixed {
+      width: 100%;
+      height: 90px;
+      box-shadow: rgba(0, 0, 0, 0.15) 0px 6px 13px;
+      border-radius: 0px;
+      background: white;
+      position: fixed;
+      padding: 0 3px 10px 3px;
+    }
+
+    #olFixed {
+      position: relative;
+    }
+
+    .head-info .head-contents h2 {
+        font-size: 3.85rem;
+    }
+
+    .head-info .head-contents h4 {
+        font-size: 1.9rem;
+    }
+
+}
+
+@media (max-width: 890px) and (min-width: 800px) {
+
+     .navbar-nav {
+        float: right;
+        list-style: none;
+        padding: 35px 5px;
+        margin: 0;
+     }
+
+     .navbar-nav li {
+        padding: 0 10px;
+     }
+
+    .navbar>.container-fluid-header .navbar-brand {
+        position: relative;
+        width: 88.29px;
+        height: 29.52px;
+        padding: 45px 5px;
+        margin: 0;
+    }
+
+    .navbar>.container-fluid-header .navbar-brand.brandPerforce {
+        margin-left: 25px;
+    }
+
+    .navbar-default .navbar-nav .navbar-nav-products li a {
+        text-transform: capitalize;
+        font-size: 1rem;
+        background-color: transparent;
+        padding: 3px 3px 3px 15px;
+    }
+
+    .navbar-default .navbar-nav li a {
+        text-transform: capitalize;
+        font-size: 1.25rem;
+        color: #404040;
+    }
+
+    #linkFixed {
+      font-size: 1.25rem;
+      background-color: #ffffff;
+      color: #404040;
+    }
+
+    #linkFixed:hover {
+      font-size: 1.25rem;
+      color: #000000;
+    }
+
+    #whiteFixed {
+      width: 100%;
+      height: 90px;
+      box-shadow: rgba(0, 0, 0, 0.15) 0px 6px 13px;
+      border-radius: 0px;
+      background: white;
+      position: fixed;
+      padding: 0 3px 10px 3px;
+    }
+
+    #olFixed {
+      position: relative;
+    }
+
+    .head-info .head-contents h2 {
+        font-size: 3.23rem;
+    }
+
+    .head-info .head-contents h4 {
+        font-size: 1.62rem;
+    }
+
+}
+
+@media (max-width: 799px) and (min-width: 768px) {
+
+     .navbar-nav {
+        float: right;
+        list-style: none;
+        padding: 35px 5px;
+        margin: 0;
+     }
+
+     .navbar-nav li {
+        padding: 0 7.5px;
+     }
+
+    .navbar>.container-fluid-header .navbar-brand {
+        position: relative;
+        width: 79.46px;
+        height: 26.57px;
+        padding: 45px 5px;
+        margin: 0;
+    }
+
+    .navbar>.container-fluid-header .navbar-brand.brandPerforce {
+        margin-left: 25px;
+    }
+
+    .navbar-default .navbar-nav .navbar-nav-products li a {
+        text-transform: capitalize;
+        font-size: 1rem;
+        background-color: transparent;
+        padding: 3px 3px 3px 15px;
+    }
+
+    .navbar-default .navbar-nav li a {
+        text-transform: capitalize;
+        font-size: 1.2rem;
+        color: #404040;
+    }
+
+
+    #linkFixed {
+      font-size: 1.2rem;
+      background-color: #ffffff;
+      color: #404040;
+    }
+
+    #linkFixed:hover {
+      font-size: 1.2rem;
+      color: #000000;
+    }
+
+    #whiteFixed {
+      width: 100%;
+      height: 90px;
+      box-shadow: rgba(0, 0, 0, 0.15) 0px 6px 13px;
+      border-radius: 0px;
+      background: white;
+      position: fixed;
+      padding: 0 3px 10px 3px;
+    }
+
+    #olFixed {
+      position: relative;
+    }
+
+    .head-info .head-contents h2 {
+        font-size: 2.75rem;
+    }
+
+    .head-info .head-contents h4 {
+        font-size: 1.38rem;
+    }
+
+}
+
+@media (max-width: 767px) and (min-width: 468px) {
+
+    .wrapper-nav-menu-max {
+        display: none;
+    }
+
+    .navbar>.container-fluid-header .navbar-brand {
+        position: relative;
+        width: 79.46px;
+        height: 26.57px;
+        padding: 45px 5px;
+        margin: 0;
+    }
+
+    .menu-nav button.button-nav-menu {
+        display: inline-block;
+        position: relative;
+        width: 4rem;
+        height: 4rem;
+        left: 92.5%;
+        transform: translateY(-170%);
+        background: transparent;
+        outline: none;
+        border: none;
+    }
+
+    .menu-nav button.button-nav-menu .svg-nav {
+        width: 100%;
+        height: 100%;
+    }
+
+    .navbar>.container-fluid-header .wrapper-nav-menu-min.look {
+        display: flex;
+        position: fixed;
+        justify-content: space-between;
+        flex-direction: column;
+        flex: 0 0 auto;
+        width: 200px;
+        height: 100vh;
+        top: 91px;
+        right: -5px;
+        border: 0.5px solid #A8A8A8;
+        border-top: 0;
+        border-right: 0;
+        border-bottom: 0;
+        background: #ffffff;
+        -webkit-box-pack: justify;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+    }
+
+    .menu-nav .wrapper-nav-menu-min.look .navbar-nav {
+        padding: 80px 70px 0 70px;
+    }
+
+    .wrapper-nav-menu-min.look .navbar-nav li {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0 10px;
+        visibility: visible;
+    }
+
+    .wrapper-nav-menu-min.look .navbar-nav li a {
+        position: relative;
+        display: inline-block;
+        text-transform: capitalize;
+        font-size: 1.5rem;
+        color: #404040;
+        text-align: justify;
+        padding: 0;
+        margin: 0 0 30px 0;
+    }
+
+    .navbar-default .navbar-nav li a.nav-btn:hover::after {
+        position: absolute;
+        content: "";
+        top: 17.5px;
+        left: 0;
+        right: 0;
+        border-top-width: 1px;
+        border-top-style: solid;
+        transition: opacity 350ms;
+    }
+
+    .wrapper-nav-menu-min.look .navbar-nav .btn-lang {
+        position: relative;
+        padding: 0;
+        margin: 15px 0 50px 10px;
+    }
+
+    .wrapper-nav-menu-min.look .navbar-nav .btn-lang .btn-lang-pl {
+        padding: 10px 10px;
+        border: 1px solid #d01a48;
+        border-radius: 5px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #d01a48;
+    }
+
+    #whiteFixed {
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 6px 13px;
+        position: fixed;
+        padding: 0;
+    }
+
+    #linkFixed {
+        font-size: 1.5rem;
+        background-color: white;
+        color: #404040;
+    }
+
+    /* .wrapper-nav-menu-min.look li {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0 10px;
+        visibility: visible;
+  } */
+
+    .wrapper-nav-menu-min.look li .another-nav-btn {
+        position: relative;
+        width: 200%;
+        height: 40px;
+        left: -50%;
+        margin: 0 0 0 -100%;
+        border: 1px solid #404040;
+        background: transparent;
+    }
+
+    .wrapper-nav-menu-min.look li .another-nav-btn:hover  {
+        border: 2px solid #303030;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 0.25rem;
+        color: #303030;
+    }
+
+    .wrapper-nav-menu-min.look li .another-nav-btn p {
+        text-transform: capitalize;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        color: #404040;
+        font-size: 1.25rem;
+    }
+
+    .wrapper-nav-menu-min.look .socials-container {
+        display: block;
+        position: relative;
+        width: 100%;
+        margin: 0 0 100px 0;
+        padding: 0;
+        visibility: visible;
+    }
+
+    .wrapper-nav-menu-min.look .socials-container .social-icon {
+        display: inline-block;
+        position: relative;
+        width: 32%;
+        left: 5%;
+        list-style-type: none;
+    }
+
+    .wrapper-nav-menu-min.look .socials-container .social-icon a svg {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+    }
+
+    #svg-fb {
+        border: 1px solid #3b5998;
+    }
+
+    #svg-fb:hover {
+        fill: #3b5998;
+    }
+
+     #svg-tw {
+        border: 1px solid #0084B4;
+    }
+
+     #svg-tw:hover {
+        fill: #0084B4;
+    }
+
+     #svg-goog {
+        border: 1px solid #d34836;
+    }
+
+     #svg-goog:hover {
+        fill: #d34836;
+    }
+
+    .wrapper-nav-menu-min .socials-container .infoBox {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        line-height: 1;
+        list-style-type: none;
+    }
+
+    .wrapper-nav-menu-min .socials-container .infoBox span {
+        display: block;
+        text-align: center;
+        font-size: 0.75rem;
+        font-weight: 700;
+        color: #000000;
+    }
+
+}
+
+@media (max-width: 467px) and (min-width: 300px) {
+
+    .wrapper-nav-menu-max {
+        display: none;
+    }
+
+    .navbar>.container-fluid-header .navbar-brand {
+        position: relative;
+        width: 79.46px;
+        height: 26.57px;
+        padding: 45px 5px;
+        margin: 0;
+    }
+
+    .navbar>.container-fluid-header .navbar-brand.brandPerforce {
+        margin-left: 10px;
+    }
+
+    .menu-nav button.button-nav-menu {
+        display: inline-block;
+        position: relative;
+        width: 4rem;
+        height: 4rem;
+        left: 92.5%;
+        transform: translateY(-170%);
+        background: transparent;
+        outline: none;
+        border: none;
+    }
+
+    .menu-nav button.button-nav-menu .svg-nav {
+        width: 100%;
+        height: 100%;
+    }
+
+    .navbar>.container-fluid-header .wrapper-nav-menu-min.look {
+        display: flex;
+        position: fixed;
+        justify-content: space-between;
+        flex-direction: column;
+        flex: 0 0 auto;
+        width: 200px;
+        height: 100vh;
+        top: 91px;
+        right: -5px;
+        border: 0.5px solid #A8A8A8;
+        border-top: 0;
+        border-right: 0;
+        border-bottom: 0;
+        background: #ffffff;
+        -webkit-box-pack: justify;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+    }
+
+    .menu-nav .wrapper-nav-menu-min.look .navbar-nav {
+        padding: 80px 70px 0 70px;
+    }
+
+    .wrapper-nav-menu-min.look .navbar-nav li {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0 10px;
+        visibility: visible;
+    }
+
+    .wrapper-nav-menu-min.look .navbar-nav li a {
+        position: relative;
+        display: inline-block;
+        text-transform: capitalize;
+        font-size: 1.5rem;
+        color: #404040;
+        text-align: justify;
+        padding: 0;
+        margin: 0 0 30px 0;
+    }
+
+     .navbar-default .navbar-nav li a.nav-btn:hover::after {
+        position: absolute;
+        content: "";
+        top: 17.5px;
+        left: 0;
+        right: 0;
+        border-top-width: 1px;
+        border-top-style: solid;
+        transition: opacity 350ms;
+    }
+
+    .wrapper-nav-menu-min.look .navbar-nav .btn-lang {
+        position: relative;
+        padding: 0;
+        margin: 15px 0 50px 10px;
+    }
+
+    .wrapper-nav-menu-min.look .navbar-nav .btn-lang .btn-lang-pl {
+        padding: 10px 10px;
+        border: 1px solid #d01a48;
+        border-radius: 5px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #d01a48;
+    }
+
+    #whiteFixed {
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 6px 13px;
+        position: fixed;
+        padding: 0;
+    }
+
+    #linkFixed {
+        font-size: 1.5rem;
+        background-color: white;
+        color: #404040;
+    }
+
+    .wrapper-nav-menu-min.look li .another-nav-btn {
+        display: block;
+        position: relative;
+        width: 200%;
+        height: 40px;
+        left: -50%;
+        margin: 0 0 0 -100%;
+        border: 1px solid #404040;
+        background: transparent;
+    }
+
+    .wrapper-nav-menu-min.look li .another-nav-btn:hover  {
+        border: 2px solid #303030;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 0.25rem;
+        color: #303030;
+    }
+
+    .wrapper-nav-menu-min.look li .another-nav-btn p {
+        text-transform: capitalize;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        color: #404040;
+        font-size: 1.25rem;
+    }
+
+    .wrapper-nav-menu-min.look .socials-container {
+        display: block;
+        position: relative;
+        width: 100%;
+        margin: 0 0 100px 0;
+        padding: 0;
+        visibility: visible;
+    }
+
+    .wrapper-nav-menu-min.look .socials-container .social-icon {
+        display: inline-block;
+        position: relative;
+        width: 32%;
+        left: 5%;
+        list-style-type: none;
+    }
+
+    .wrapper-nav-menu-min.look .socials-container .social-icon a svg {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+    }
+
+    #svg-fb {
+       border: 1px solid #3b5998;
+    }
+
+    #svg-fb:hover {
+       fill: #3b5998;
+    }
+
+     #svg-tw {
+       border: 1px solid #0084B4;
+    }
+
+     #svg-tw:hover {
+       fill: #0084B4;
+    }
+
+     #svg-goog {
+       border: 1px solid #d34836;
+    }
+
+     #svg-goog:hover {
+        fill: #d34836;
+    }
+
+    .wrapper-nav-menu-min .socials-container .infoBox {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        line-height: 1;
+        list-style-type: none;
+    }
+
+    .wrapper-nav-menu-min .socials-container .infoBox span {
+        display: block;
+        text-align: center;
+        font-size: 0.75rem;
+        font-weight: 700;
+        color: #000000;
+    }
+
+}
+
+@media (max-width: 299px) {
+
+    .wrapper-nav-menu-max {
+        display: none;
+    }
+
+    .navbar>.container-fluid-header .navbar-brand {
+        position: relative;
+        width: 79.46px;
+        height: 26.57px;
+        padding: 45px 5px;
+        margin: 0;
+    }
+
+    .navbar>.container-fluid-header .navbar-brand .logo-brand {
+        display: none;
+    }
+
+    .navbar>.container-fluid-header .navbar-brand.brandPerforce {
+        display: none;
+    }
+
+    .menu-nav button.button-nav-menu {
+        display: inline-block;
+        position: relative;
+        width: 4rem;
+        height: 4rem;
+        left: 92.5%;
+        transform: translateY(-170%);
+        background: transparent;
+        outline: none;
+        border: none;
+    }
+
+    .menu-nav button.button-nav-menu .svg-nav {
+        width: 100%;
+        height: 100%;
+    }
+
+    .navbar>.container-fluid-header .wrapper-nav-menu-min.look {
+        display: flex;
+        position: fixed;
+        justify-content: space-between;
+        flex-direction: column;
+        flex: 0 0 auto;
+        width: 200px;
+        height: 100vh;
+        top: 91px;
+        right: -5px;
+        border: 0.5px solid #A8A8A8;
+        border-top: 0;
+        border-right: 0;
+        border-bottom: 0;
+        background: #ffffff;
+        -webkit-box-pack: justify;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+    }
+
+    .menu-nav .wrapper-nav-menu-min.look .navbar-nav {
+        padding: 80px 70px 0 70px;
+    }
+
+    .wrapper-nav-menu-min.look .navbar-nav li {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0 10px;
+        visibility: visible;
+    }
+
+    .wrapper-nav-menu-min.look .navbar-nav li a {
+        position: relative;
+        display: inline-block;
+        text-transform: capitalize;
+        font-size: 1.5rem;
+        color: #404040;
+        text-align: justify;
+        padding: 0;
+        margin: 0 0 30px 0;
+    }
+
+    .navbar-default .navbar-nav li a.nav-btn:hover::after {
+        position: absolute;
+        content: "";
+        top: 17.5px;
+        left: 0;
+        right: 0;
+        border-top-width: 1px;
+        border-top-style: solid;
+        transition: opacity 350ms;
+    }
+
+    .wrapper-nav-menu-min.look .navbar-nav .btn-lang {
+        position: relative;
+        padding: 0;
+        margin: 15px 0 50px 10px;
+    }
+
+    .wrapper-nav-menu-min.look .navbar-nav .btn-lang .btn-lang-pl {
+        padding: 10px 10px;
+        border: 1px solid #d01a48;
+        border-radius: 5px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #d01a48;
+    }
+
+    #whiteFixed {
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 6px 13px;
+        position: fixed;
+        padding: 0;
+    }
+
+    #linkFixed {
+        font-size: 1.5rem;
+        background-color: white;
+        color: #404040;
+    }
+
+    .wrapper-nav-menu-min.look li .another-nav-btn {
+        display: block;
+        position: relative;
+        width: 200%;
+        height: 40px;
+        left: -50%;
+        margin: 0 0 0 -100%;
+        border: 1px solid #404040;
+        background: transparent;
+    }
+
+    .wrapper-nav-menu-min.look li .another-nav-btn:hover  {
+        border: 2px solid #303030;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 0.25rem;
+        color: #303030;
+    }
+
+    .wrapper-nav-menu-min.look li .another-nav-btn p {
+        text-transform: capitalize;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        color: #404040;
+        font-size: 1.25rem;
+    }
+
+    .wrapper-nav-menu-min.look .socials-container {
+        display: block;
+        position: relative;
+        width: 100%;
+        margin: 0 0 100px 0;
+        padding: 0;
+        visibility: visible;
+    }
+
+    .wrapper-nav-menu-min.look .socials-container .social-icon {
+        display: inline-block;
+        position: relative;
+        width: 32%;
+        left: 5%;
+        list-style-type: none;
+    }
+
+    .wrapper-nav-menu-min.look .socials-container .social-icon a svg {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+    }
+
+    #svg-fb {
+       border: 1px solid #3b5998;
+    }
+
+    #svg-fb:hover {
+       fill: #3b5998;
+    }
+
+     #svg-tw {
+        border: 1px solid #0084B4;
+    }
+
+     #svg-tw:hover {
+        fill: #0084B4;
+    }
+
+     #svg-goog {
+        border: 1px solid #d34836;
+    }
+
+     #svg-goog:hover {
+        fill: #d34836;
+    }
+
+    .wrapper-nav-menu-min .socials-container .infoBox {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        line-height: 1;
+        list-style-type: none;
+    }
+
+    .wrapper-nav-menu-min .socials-container .infoBox span {
+        display: block;
+        text-align: center;
+        font-size: 0.75rem;
+        font-weight: 700;
+        color: #000000;
+    }
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* Media Queries Header Font-Size */
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 767px) and (min-width: 668px) {
+
+  .head-info .head-contents h2 {
+      font-size: 2.47rem;
+  }
+
+  .head-info .head-contents h4 {
+      font-size: 1.35rem;
+  }
+
+}
+
+@media (max-width: 667px) and (min-width: 568px) {
+
+  .head-info .head-contents h2 {
+      font-size: 2.19rem;
+  }
+
+  .head-info .head-contents h4 {
+      font-size: 1.25rem;
+  }
+
+}
+
+@media (max-width: 567px) and (min-width: 468px) {
+
+  .head-info .head-contents h2 {
+      font-size: 1.91rem;
+  }
+
+  .head-info .head-contents h4 {
+      font-size: 1.15rem;
+  }
+
+}
+
+@media (max-width: 467px) and (min-width: 368px) {
+
+  .head-info .head-contents h2 {
+      font-size: 1.63rem;
+  }
+
+  .head-info .head-contents h4 {
+      font-size: 1.05rem;
+  }
+
+}
+
+@media (max-width: 367px) {
+
+  .head-info .head-contents h2 {
+      font-size: 1.35rem;
+  }
+
+  .head-info .head-contents h4 {
+      font-size: 0.95rem;
+  }
+
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  End Navi
+/*-----------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------------------------*/
+/*      * End
+/*-----------------------------------------------------------------------------------*/

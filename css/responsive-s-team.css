@@ -1,0 +1,733 @@
+/*  -------------------------------------------------------------------------------
+ *  Media Queries
+ *  -------------------------------------------------------------------------------
+ *
+ *  This part contains the all changes that needed for elements for the Bootsrap
+ *  widths like iPhone image in About me section
+ *
+ *  It's divided to the following sections:
+ *
+ *     |
+       |-->   - Width between 1600px to 1367px
+       |-->   - Width between 1366px to 1250px
+       |-->   - Width between 1249px to 70em
+       |-->   - Width between 1119px to 992px
+       |-->   - Width between 991px to 891px
+       |-->   - Width between 890px to 800px
+       |-->   - Width between 799px to 768px
+       |-->   - Width between 767px to 668px
+       |-->   - Width between 667px to 568px
+       |-->   - Width between 567px to 468px
+       |-->   - Width between 467px to 368px
+       |-->   - Width between 367px to end
+*/
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  Start My Team
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 1600px) and (min-width: 1367px) {
+
+  .my-team .team-media {
+      padding: 0;
+      margin-top: 15px;
+  }
+
+  .my-team .team-media .social-media-team {
+      margin: 0;
+      padding: 0;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+
+  .my-team .team-media .img-personale-team img {
+      width: 100%;
+      height: auto;
+      padding: 0 70px;
+      margin: 0;
+      cursor: pointer;
+  }
+
+  .my-team .name-personale-work {
+      padding-top: 3.5%;
+      margin-bottom: 37.5px;
+      text-align: center;
+  }
+
+  .my-team .name-personale-work {
+      margin-top: 5px;
+      text-align: center;
+      padding: 0 70px;
+  }
+
+  .my-team .name-personale-work span {
+      padding: 1.5px 0;
+      font-size: 1.25rem;
+      font-weight: 400;
+      line-height: 1;
+      letter-spacing: 0.75px;
+  }
+
+  .my-team .name-personale-work a h4 {
+      margin-top: 15px;
+      letter-spacing: 1px;
+      font-size: 1.45rem;
+      font-weight: 700;
+      line-height: 1;
+      color: #000000;
+      text-transform: uppercase;
+  }
+
+  .my-team .social-media-team .linkedIn-large {
+      font-size: 5rem;
+  }
+
+}
+
+@media (max-width: 1366px) and (min-width: 1250px) {
+
+  .my-team .team-media {
+      padding: 0;
+      margin-top: 15px;
+  }
+
+  .my-team .team-media .social-media-team {
+      margin: 0;
+      padding: 0;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+
+  .my-team .team-media .img-personale-team img {
+      width: 100%;
+      height: auto;
+      padding: 0 60px;
+      margin: 0;
+      cursor: pointer;
+  }
+
+  .my-team .name-personale-work {
+      padding-top: 3.5%;
+      margin-bottom: 35px;
+      text-align: center;
+  }
+
+  .my-team .name-personale-work {
+      margin-top: 5px;
+      text-align: center;
+      padding: 0 60px;
+  }
+
+  .my-team .name-personale-work span {
+      padding: 1.5px 0;
+      font-size: 1.2rem;
+      font-weight: 400;
+      line-height: 1;
+      letter-spacing: 0.75px;
+  }
+
+  .my-team .name-personale-work a h4 {
+      margin-top: 15px;
+      letter-spacing: 1px;
+      font-size: 1.4rem;
+      font-weight: 700;
+      line-height: 1;
+      color: #000000;
+      text-transform: uppercase;
+  }
+
+  .my-team .social-media-team .linkedIn-large {
+      font-size: 4.75rem;
+  }
+
+}
+
+@media (max-width: 1249px) and (min-width: 70em) {
+
+  .my-team .team-media {
+      padding: 0;
+      margin-top: 15px;
+  }
+
+  .my-team .team-media .social-media-team {
+      margin: 0;
+      padding: 0;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+
+  .my-team .team-media .img-personale-team img {
+      width: 100%;
+      height: auto;
+      padding: 0 50px;
+      margin: 0;
+      cursor: pointer;
+  }
+
+  .my-team .name-personale-work {
+      padding-top: 3.5%;
+      margin-bottom: 30px;
+      text-align: center;
+  }
+
+  .my-team .name-personale-work {
+      margin-top: 5px;
+      text-align: center;
+      padding: 0 50px;
+  }
+
+  .my-team .name-personale-work span {
+      padding: 1.5px 0;
+      font-size: 1.15rem;
+      font-weight: 400;
+      line-height: 1;
+      letter-spacing: 0.75px;
+  }
+
+  .my-team .name-personale-work a h4 {
+      margin-top: 15px;
+      letter-spacing: 1px;
+      font-size: 1.35rem;
+      font-weight: 700;
+      line-height: 1;
+      color: #000000;
+      text-transform: uppercase;
+  }
+
+  .my-team .social-media-team .linkedIn-large {
+      font-size: 4.5rem;
+  }
+
+}
+
+@media (max-width: 1119px) and (min-width: 992px) {
+
+  .my-team .team-media {
+      padding: 0;
+      margin-top: 15px;
+  }
+
+  .my-team .team-media .social-media-team {
+      margin: 0;
+      padding: 0;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+
+  .my-team .team-media .img-personale-team img {
+      width: 100%;
+      height: auto;
+      padding: 0 40px;
+      margin: 0;
+      cursor: pointer;
+  }
+
+  .my-team .name-personale-work {
+      padding-top: 3.5%;
+      margin-bottom: 30px;
+      text-align: center;
+  }
+
+  .my-team .name-personale-work {
+      margin-top: 5px;
+      text-align: center;
+      padding: 0 40px;
+  }
+
+  .my-team .name-personale-work span {
+      padding: 1.4px 0;
+      font-size: 1.1rem;
+      font-weight: 400;
+      line-height: 1;
+      letter-spacing: 0.75px;
+  }
+
+  .my-team .name-personale-work a h4 {
+      margin-top: 15px;
+      letter-spacing: 1px;
+      font-size: 1.3rem;
+      font-weight: 700;
+      line-height: 1;
+      color: #000000;
+      text-transform: uppercase;
+  }
+
+  .my-team .social-media-team .linkedIn-large {
+      font-size: 4.25rem;
+  }
+
+}
+
+@media (max-width: 991px) and (min-width: 891px) {
+
+  .my-team .team-media {
+      padding: 0;
+      margin-top: 15px;
+  }
+
+  .my-team .team-media .social-media-team {
+      margin: 0;
+      padding: 0;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+
+  .my-team .team-media .img-personale-team img {
+      width: 100%;
+      height: auto;
+      padding: 0 30px;
+      margin: 0;
+      cursor: pointer;
+  }
+
+  .my-team .name-personale-work {
+      padding-top: 3.5%;
+      margin-bottom: 25px;
+      text-align: center;
+  }
+
+  .my-team .name-personale-work {
+      margin-top: 5px;
+      text-align: center;
+      padding: 0 30px;
+  }
+
+  .my-team .name-personale-work span {
+      padding: 1.5px 0;
+      font-size: 1.05rem;
+      font-weight: 400;
+      line-height: 1;
+      letter-spacing: 0.75px;
+  }
+
+  .my-team .name-personale-work a h4 {
+      margin-top: 15px;
+      letter-spacing: 1px;
+      font-size: 1.25rem;
+      font-weight: 700;
+      line-height: 1;
+      color: #000000;
+      text-transform: uppercase;
+  }
+
+  .my-team .social-media-team .linkedIn-large {
+      font-size: 4rem;
+  }
+
+}
+
+@media (max-width: 890px) and (min-width: 800px) {
+
+  .my-team .team-media {
+      padding: 0;
+      margin-top: 15px;
+  }
+
+  .my-team .team-media .social-media-team {
+      margin: 0;
+      padding: 0;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+
+  .my-team .team-media .img-personale-team img {
+      width: 100%;
+      height: auto;
+      padding: 0 20px;
+      margin: 0;
+      cursor: pointer;
+  }
+
+  .my-team .name-personale-work {
+      padding-top: 3.5%;
+      margin-bottom: 20px;
+      text-align: center;
+  }
+
+  .my-team .name-personale-work {
+      margin-top: 5px;
+      text-align: center;
+      padding: 0 20px;
+  }
+
+  .my-team .name-personale-work span {
+      padding: 1.5px 0;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1;
+      letter-spacing: 0.75px;
+  }
+
+  .my-team .name-personale-work a h4 {
+      margin-top: 15px;
+      letter-spacing: 1px;
+      font-size: 1.2rem;
+      font-weight: 700;
+      line-height: 1;
+      color: #000000;
+      text-transform: uppercase;
+  }
+
+  .my-team .social-media-team .linkedIn-large {
+      font-size: 3.75rem;
+  }
+
+}
+
+@media (max-width: 799px) and (min-width: 768px) {
+
+  .my-team .team-media {
+      padding: 0;
+      margin-top: 15px;
+  }
+
+  .my-team .team-media .social-media-team {
+      margin: 0;
+      padding: 0;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+
+  .my-team .team-media .img-personale-team img {
+      width: 100%;
+      height: auto;
+      padding: 0 10px;
+      margin: 0;
+      cursor: pointer;
+  }
+
+  .my-team .name-personale-work {
+      padding-top: 3.5%;
+      margin-bottom: 30px;
+      text-align: center;
+  }
+
+  .my-team .name-personale-work {
+      margin-top: 5px;
+      text-align: center;
+      padding: 0 10px;
+  }
+
+  .my-team .name-personale-work span {
+      padding: 1.5px 0;
+      font-size: 0.95rem;
+      font-weight: 400;
+      line-height: 1;
+      letter-spacing: 0.75px;
+  }
+
+  .my-team .name-personale-work a h4 {
+      margin-top: 15px;
+      letter-spacing: 1px;
+      font-size: 1.15rem;
+      font-weight: 700;
+      line-height: 1;
+      color: #000000;
+      text-transform: uppercase;
+  }
+
+  .my-team .social-media-team .linkedIn-large {
+      font-size: 3.5rem;
+  }
+
+}
+
+@media (max-width: 767px) and (min-width: 668px) {
+
+  .my-team .team-media {
+      padding: 0;
+      margin-top: 15px;
+  }
+
+  .my-team .team-media .social-media-team {
+      margin: 0;
+      padding: 0;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+
+  .my-team .team-media .img-personale-team img {
+      width: 100%;
+      height: auto;
+      padding: 0 80px;
+      margin: 0;
+      cursor: pointer;
+  }
+
+  .my-team .name-personale-work {
+      padding-top: 3.5%;
+      margin-bottom: 50px;
+      text-align: center;
+  }
+
+  .my-team .name-personale-work {
+      margin-top: 5px;
+      text-align: center;
+      padding: 0 80px;
+  }
+
+  .my-team .name-personale-work span {
+      padding: 1.5px 0;
+      font-size: 1.25rem;
+      font-weight: 400;
+      line-height: 1;
+      letter-spacing: 0.8px;
+  }
+
+  .my-team .name-personale-work a h4 {
+      margin-top: 14px;
+      letter-spacing: 1px;
+      font-size: 1.75rem;
+      font-weight: 700;
+      line-height: 1;
+      color: #000000;
+      text-transform: uppercase;
+  }
+
+  .my-team .social-media-team .linkedIn-large {
+      font-size: 5rem;
+  }
+
+}
+
+@media (max-width: 667px) and (min-width: 568px) {
+
+  .my-team .team-media {
+      padding: 0;
+      margin-top: 15px;
+  }
+
+  .my-team .team-media .social-media-team {
+      margin: 0;
+      padding: 0;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+
+  .my-team .team-media .img-personale-team img {
+      width: 100%;
+      height: auto;
+      padding: 0 70px;
+      margin: 0;
+      cursor: pointer;
+  }
+
+  .my-team .name-personale-work {
+      padding-top: 3.5%;
+      margin-bottom: 45px;
+      text-align: center;
+  }
+
+  .my-team .name-personale-work {
+      margin-top: 5px;
+      text-align: center;
+      padding: 0 70px;
+  }
+
+  .my-team .name-personale-work span {
+      padding: 1.5px 0;
+      font-size: 1.2rem;
+      font-weight: 400;
+      line-height: 1;
+      letter-spacing: 0.75px;
+  }
+
+  .my-team .name-personale-work a h4 {
+      margin-top: 13px;
+      letter-spacing: 1px;
+      font-size: 1.6rem;
+      font-weight: 700;
+      line-height: 1;
+      color: #000000;
+      text-transform: uppercase;
+  }
+
+  .my-team .social-media-team .linkedIn-large {
+      font-size: 4.75rem;
+  }
+
+}
+
+@media (max-width: 567px) and (min-width: 468px) {
+
+  .my-team .team-media {
+      padding: 0;
+      margin-top: 15px;
+  }
+
+  .my-team .team-media .social-media-team {
+      margin: 0;
+      padding: 0;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+
+  .my-team .team-media .img-personale-team img {
+      width: 100%;
+      height: auto;
+      padding: 0 60px;
+      margin: 0;
+      cursor: pointer;
+  }
+
+  .my-team .name-personale-work {
+      padding-top: 3.5%;
+      margin-bottom: 40px;
+      text-align: center;
+  }
+
+  .my-team .name-personale-work {
+      margin-top: 5px;
+      text-align: center;
+      padding: 0 60px;
+  }
+
+  .my-team .name-personale-work span {
+      padding: 1.5px 0;
+      font-size: 1.15rem;
+      font-weight: 400;
+      line-height: 1;
+      letter-spacing: 0.7px;
+  }
+
+  .my-team .name-personale-work a h4 {
+      margin-top: 12px;
+      letter-spacing: 1px;
+      font-size: 1.45rem;
+      font-weight: 700;
+      line-height: 1;
+      color: #000000;
+      text-transform: uppercase;
+  }
+
+  .my-team .social-media-team .linkedIn-large {
+      font-size: 4.5rem;
+  }
+
+}
+
+@media (max-width: 467px) and (min-width: 368px) {
+
+  .my-team .team-media {
+      padding: 0;
+      margin-top: 15px;
+  }
+
+  .my-team .team-media .social-media-team {
+      margin: 0;
+      padding: 0;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+
+  .my-team .team-media .img-personale-team img {
+      width: 100%;
+      height: auto;
+      padding: 0 50px;
+      margin: 0;
+      cursor: pointer;
+  }
+
+  .my-team .name-personale-work {
+      padding-top: 3.5%;
+      margin-bottom: 35px;
+      text-align: center;
+  }
+
+  .my-team .name-personale-work {
+      margin-top: 5px;
+      text-align: center;
+      padding: 0 50px;
+  }
+
+  .my-team .name-personale-work span {
+      padding: 1.5px 0;
+      font-size: 1.1rem;
+      font-weight: 400;
+      line-height: 1;
+      letter-spacing: 0.65px;
+  }
+
+  .my-team .name-personale-work a h4 {
+      margin-top: 11px;
+      letter-spacing: 1px;
+      font-size: 1.3rem;
+      font-weight: 700;
+      line-height: 1;
+      color: #000000;
+      text-transform: uppercase;
+  }
+
+  .my-team .social-media-team .linkedIn-large {
+      font-size: 4.25rem;
+  }
+
+}
+
+@media (max-width: 367px)  {
+
+  .my-team .team-media {
+      padding: 0;
+      margin-top: 15px;
+  }
+
+  .my-team .team-media .social-media-team {
+      margin: 0;
+      padding: 0;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+
+  .my-team .team-media .img-personale-team img {
+      width: 100%;
+      height: auto;
+      padding: 0 40px;
+      margin: 0;
+      cursor: pointer;
+  }
+
+  .my-team .name-personale-work {
+      padding-top: 3.5%;
+      margin-bottom: 30px;
+      text-align: center;
+  }
+
+  .my-team .name-personale-work {
+      margin-top: 5px;
+      text-align: center;
+      padding: 0 40px;
+  }
+
+  .my-team .name-personale-work span {
+      padding: 1.5px 0;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1;
+      letter-spacing: 0.6px;
+  }
+
+  .my-team .name-personale-work a h4 {
+      margin-top: 10px;
+      letter-spacing: 1px;
+      font-size: 1.15rem;
+      font-weight: 700;
+      line-height: 1.25;
+      color: #000000;
+      text-transform: uppercase;
+  }
+
+  .my-team .social-media-team .linkedIn-large {
+      font-size: 4rem;
+  }
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  End My Team
+/*-----------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------------------------*/
+/*      * End
+/*-----------------------------------------------------------------------------------*/
